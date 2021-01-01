@@ -1,11 +1,13 @@
 import router from "./router/index";
 import { Switch, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   const appname = `arcside`;
 
   return (
     <div>
+      <Navbar appname={appname} />
       <Switch>
         {router.map((route, index) => (
           <Route

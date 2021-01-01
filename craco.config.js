@@ -4,7 +4,6 @@ module.exports = {
   style: {
     postcss: {
       plugins: [
-        require("autoprefixer"),
         purgecss({
           content: [
             "./public/index.html",
