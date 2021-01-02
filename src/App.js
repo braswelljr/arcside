@@ -6,7 +6,7 @@ const App = () => {
   const appname = `arcside`;
 
   return (
-    <div>
+    <div className="font-mulish">
       <Navbar appname={appname} />
       <Switch>
         {router.map((route, index) => (
