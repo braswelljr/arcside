@@ -13,7 +13,13 @@ const App = () => {
           <Route
             path={route.path}
             exact
-            render={() => <route.component appname={appname} />}
+            render={() => (
+              <route.component
+                style={{}}
+                className={`transition-transform transform translate-x-0 duration-200`}
+                appname={appname}
+              />
+            )}
             key={index}
           />
         ))}

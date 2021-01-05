@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "@csstools/normalize.css";
 import "./styles/main.css";
 import App from "./App";
 import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
