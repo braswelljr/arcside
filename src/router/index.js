@@ -1,6 +1,6 @@
 import Home from "../views/Home";
 import About from "../views/About";
-import Houses from "../views/Houses";
+import Properties from "../views/Properties";
 
 const router = [
   {
@@ -10,9 +10,9 @@ const router = [
     isExact: true
   },
   {
-    path: "/houses",
-    name: "Houses",
-    component: Houses,
+    path: "/properties",
+    name: "Properties",
+    component: Properties,
     isExact: true
   },
   {

@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 
 const App = () => {
   const appname = `arcside`;
+  const motto = `YOUR PROUD REAL ESTATE AND TOUR AGENT`;
 
   return (
     <div className="font-mulish">
@@ -13,13 +14,7 @@ const App = () => {
           <Route
             path={route.path}
             exact={route.isExact}
-            render={() => (
-              <route.component
-                style={{}}
-                className={`transition-transform transform translate-x-0 duration-200`}
-                appname={appname}
-              />
-            )}
+            render={() => <route.component appname={appname} motto={motto} />}
             key={index}
           />
         ))}
