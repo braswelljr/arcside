@@ -6,17 +6,20 @@ const router = [
   {
     path: "/",
     name: "Home",
-    component: Home
+    component: Home,
+    isExact: true
   },
   {
     path: "/houses",
     name: "Houses",
-    component: Houses
+    component: Houses,
+    isExact: true
   },
   {
     path: "/about",
     name: "About",
-    component: About
+    component: About,
+    isExact: true
   }
 ];
 

@@ -12,7 +12,7 @@ const App = () => {
         {router.map((route, index) => (
           <Route
             path={route.path}
-            exact
+            exact={route.isExact}
             render={() => (
               <route.component
                 style={{}}
